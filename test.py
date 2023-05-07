@@ -15,6 +15,7 @@ for item in root:
 print(len(nodes))
 for item in root:
 	if(item.tag == 'way'):
+		name = ''
 		for nd in item:
 			if(nd.tag =='nd'):
 				#print(nd.attrib['ref'])
